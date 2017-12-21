@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+section {
+  height: 90vh;
+  padding: 0 10vw;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 10vmin;
+  margin: 0;
+}
+
+.content {
+  animation: expand 3s ease-in-out;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-item {
+  margin: 1vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-svg {
+  height: 30px;
+  width: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.middle {
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
+
+.arrow-description {
+  height: 3vh;
+  margin-bottom: 1vh;
+}
+
+.arrow {
+  height: 4vh;
+  animation: pulse 3s infinite ease-in-out;
+}
+
+.resume {
+  height: 100vh;
+}
+
+@keyframes show {
+    0% {opacity: 0;}
+    50% {opacity: 30;}
+    100% {opacity: 100;}
+}
+
+@keyframes expand {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+@keyframes pulse {
+  0% {transform: scale(0.4);}
+  50% {transform: scale(1);}
+  100% {transform: scale(0.4);}
+}
