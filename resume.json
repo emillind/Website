@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {"name": "Education",
+      "items": [
+        {"period": "2017-",
+          "title": "M.Sc Computer Science",
+          "location": "KTH Royal Institute of Technology - Stockholm, Sweden",
+          "description": "Master of Science degree in Computer Science with main track Software Technology."
+        },
+        {"period": "2014-2017",
+          "title": "B.Sc Computer Science",
+          "location": "KTH Royal Institute of Technology - Stockholm, Sweden",
+          "description": "Bachelor of Science degree in Computer Science."
+        },
+        {"period": "2011-2014",
+          "title": "Natural Science Program",
+          "location": "Widénska Idrottscollege",
+          "description": "High school studies in the Natural Science Program with specialization football.⚽"
+        }
+      ]
+    },
+    {"name": "Work experience",
+      "items": [
+        {"period": "Spring 2018",
+          "title": "Part time developer",
+          "location": "Digpro - Stockholm, Sweden",
+          "description": "Part time developer in Java"
+        },
+        {"period": "Summer 2017",
+          "title": "Software Development Intern",
+          "location": "Mediasmiths - Stockholm, Sweden",
+          "description": "Worked on Collabrik, A cloud based product for cross-platform content planning,
+          with developing a proof of concept for integrating Facebook and Google analytics.
+          (React, Redux, D3.js, Google Analytics)"
+        },
+        {"period": "Fall 2016&2017",
+          "title": "Study Catalyst",
+          "location": "KTH Royal Institute of Technology - Stockholm, Sweden",
+          "description": "Catalyst and study group leader for first year students at
+          KTH Royal Institute of Technology in their Introductory Maths course with the
+          aim to integrate them in University level maths."
+        },
+        {"period": "Spring 2015",
+          "title": "Tutor",
+          "location": "MyAcademy - Stockholm, Sweden",
+          "description": "Tutor in Maths and Physics for Swedish High School students."
+        }
+      ]
+    },
+    {"name": "Personal Projects",
+      "items": [
+        {"period": "2017",
+          "title": "First Cycle Degree Project",
+          "location": "KTH Royal Institute of Technology - Stockholm, Sweden",
+          "description": "Master of Science degree in Computer Science with main track Software Technology."
+        }
+      ]
+    },
+    {"name": "Extracurricular Activities",
+      "items": [
+        {"period": "2017-2018",
+          "title": "Editor in Chief",
+          "location": "Studs18 - Stockholm, Sweden",
+          "description": "Head of Editorial in a student project group with the goal of giving students insight
+          to working life in Sweden as well as abroad. My work is leading and coordinating documentation
+          of the project in text and photography."
+        },
+        {"period": "2017",
+          "title": "Editor in Chief",
+          "location": "dbuggen - Stockholm, Sweden",
+          "description": "I run the Computer Science chapter newspaper and podcast.
+          The newspaper is mostly satirical and with a joking touch, however it is a superb outlet for creativity."
+        },
+        {"period": "2015-2017",
+          "title": "Marketing Manager",
+          "location": "DKM - Stockholm, Sweden",
+          "description": "DKM is a group of Computer Science students which are responsible for organizing
+           student events such as pubs, dinners, gatherings, parties and so forth. My task was to manage our
+            marketing and design for the events planned by us."
+        },
+        {"period": "2015&2017",
+          "title": "Mentor",
+          "location": "Computer Science Reception- Stockholm, Sweden",
+          "description": "Mentored 15 first year computer science students during the six week long reception.
+           Also consists of planning events for the new students to attend."
+        },
+        {"period": "2014-2015",
+          "title": "Industry Contact",
+          "location": "Näringslivsgruppen - Stockholm, Sweden",
+          "description": "Event manager (2015) - Planned lunch seminars and co-planned the Computer Science
+           job fair. \n Industry Contact (2014-2015) - In contact with the industry to arrange events for students and companies. \n
+           Host (2014) - Host for two companies at the Computer Science job fair"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+/* {"name": "Education",
+  "items": [
+    {"period": "2017-",
+      "title": "M.Sc Computer Science",
+      "location": "KTH Royal Institute of Technology - Stockholm, Sweden",
+      "description": "Master of Science degree in Computer Science with main track Software Technology."
+    }
+  ]
+} */
