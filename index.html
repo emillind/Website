@@ -3,47 +3,33 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Emil Lindblom</title>
   </head>
   <body>
-    <script>
-      function scrollDown() {
-        var vheight = $(window).height();
-        $('html, body').animate({
-          scrollTop: (Math.floor($(window).scrollTop() / vheight)+1) * vheight
-        }, 500);
-      };
-    </script>
     <section class="intro">
-      <div class="content">
-        <h2 class="name stroke">Emil Lindblom</h2>
-        <p class="description stroke">Computer Science student at The Royal Institute of Technology (KTH)</p>
-        <div class="contact-item">
-          <i class="far fa-envelope bullet"></i> <a class="link" href="mailto:emillindblom95@gmail.com">emillindblom95@gmail.com</a>
-        </div>
-        <div class="contact-item">
-          <i class="fab fa-github bullet"></i> <a class="link" target="_blank" href="https://github.com/emillind">emillind</a>
-        </div>
-        <div class="contact-item">
-          <a target="_blank" href="https://facebook.com/emil.lindblom.5">
-            <i class="fab fa-facebook-square bullet"></i>
-          </a>
-          <a target="_blank" href="https://www.linkedin.com/in/emil-lindblom-93a918a5/">
-            <i class="fab fa-linkedin bullet"></i>
-          </a>
+      <div class="box">
+        <h1 class="name">EMIL LINDBLOM</h1>
+        <h2 class="description">Computer Science student at The Royal Institute of Technology</h2>
+        <div class="info">
+          <div class="row">
+            <a href="http://google.se" target="_blank"><img class="logo" src="./images/github-light.svg" alt="GitHub logo"></a>
+            <a href="http://google.se" target="_blank"><img class="logo" src="./images/mail-light.svg" alt="Email logo"></a>
+            <a href="http://google.se" target="_blank"><img class="logo" src="./images/linkedin-light.svg" alt="LinkedIn logo"></a>
+          </div>
+          <div class="row">
+            <div class="about" onclick="scrollDown()">
+              ABOUT ME
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="middle">
-      <p class="arrow-description">Resume</p>
-      <img src="images/arrow.svg" class="arrow" onclick="scrollDown()">
-    </section>
     <section class="resume">
-      CV
+      Resume coming soon
     </section>
     <script type="text/javascript" src="index.js"></script>
   </body>

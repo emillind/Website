@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="79px" viewBox="0 0 111 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mail" fill="#FF4B4B" fill-rule="nonzero">
+            <path d="M55.1970272,55.2245625 L41.541495,43.2475406 L2.54397297,76.7043408 C3.96170666,78.0548363 5.85201826,78.8631621 7.96877343,78.8631621 L102.3859,78.8631621 C104.492809,78.8631621 106.383121,78.0548363 107.800855,76.7043408 L68.8033326,43.2475406 L55.1970272,55.2245625 Z" id="Fill-1"></path>
+            <path d="M107.800855,2.16133051 C106.422502,0.809265303 104.492809,0 102.3859,0 L7.96877343,0 C5.89139975,0 3.96170666,0.809265303 2.54397297,2.16133051 L55.1970272,47.3814966 L107.800855,2.16133051 Z" id="Fill-2"></path>
+            <polygon id="Fill-3" points="0 6.99592567 0 72.5032297 38.1595946 40.1093996"></polygon>
+            <polygon id="Fill-4" points="72.185233 40.1288874 110.344828 72.5032297 110.344828 6.99592567"></polygon>
+        </g>
+    </g>
+</svg>
