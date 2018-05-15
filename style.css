@@ -15,8 +15,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('./images/background-dark.png') no-repeat;
+  background-image: url('./images/background-dark.png');
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
 }
 
