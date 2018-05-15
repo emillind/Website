@@ -48,6 +48,7 @@ section {
 }
 
 .description {
+  margin-top: 5px;
   transform: translate(0, -115px);
   font-size: 2em;
   font-weight: 200;
