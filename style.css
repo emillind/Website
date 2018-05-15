@@ -15,7 +15,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./images/background-dark-small.png');
+  background-image: url('./images/background-dark-smaller.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -97,7 +97,7 @@ section {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   width: 200px;
   height: 60px;
-  color: #222;
+  color: #888;
 }
 
 .about:hover {
