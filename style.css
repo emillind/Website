@@ -24,23 +24,25 @@ section {
 }
 
 .title {
-  font-size: 3em;
+  font-size: 5em;
   margin: 0 !important;
   font-weight: 900;
 }
 
 .profile {
-  height: 120px;
-  transform: translate(0, -60px);
+  height: 200px;
+  transform: translate(0, -100px);
 }
 
 .name {
-  transform: translate(0, -60px);
+  transform: translate(0, -100px);
   font-weight: 700;
+  font-size: 3em;
+  margin: 0;
 }
 
 .description {
-  transform: translate(0, -60px);
+  transform: translate(0, -100px);
   font-weight: 200;
   color: #BDBDBD:
 }
@@ -67,7 +69,7 @@ section {
 }
 
 .logo {
-  width: 60px;
+  width: 150px;
   margin: 10px;
 }
 
@@ -78,12 +80,13 @@ section {
 
 .about {
   display: flex;
+  font-size: 2em;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   background-color: #FF7170;
-  width: 100px;
-  height: 40px;
+  width: 200px;
+  height: 60px;
   color: white;
 }
 
