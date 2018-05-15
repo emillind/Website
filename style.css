@@ -9,17 +9,14 @@ section {
   width: 100vw;
 }
 
-.footer {
-  background-color: #434343;
-  height: 20vh;
-}
 
 .intro {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: url('./images/background-dark.png') no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -31,22 +28,28 @@ section {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.footer {
+  background-color: #434343;
+  height: 30vh;
+}
+
 .profile {
-  height: 200px;
-  transform: translate(0, -100px);
+  height: 250px;
+  transform: translate(0, -125px);
 }
 
 .name {
-  transform: translate(0, -100px);
+  transform: translate(0, -115px);
   font-weight: 700;
   font-size: 3em;
   margin: 0;
 }
 
 .description {
-  transform: translate(0, -100px);
+  transform: translate(0, -115px);
+  font-size: 2em;
   font-weight: 200;
-  color: #BDBDBD:
+  color: #BDBDBD;
 }
 
 .box {
@@ -105,4 +108,63 @@ section {
   justify-content: center;
   align-items: center;
   color: #d3d4d5;
+}
+
+.web {
+  display: none
+}
+
+.mobile {
+  display: block
+}
+
+@media (orientation: landscape) {
+  .title {
+    font-size: 3em;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .intro {
+    height: 75vh;
+  }
+
+  .about {
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+  }
+
+
+  .footer {
+    background-color: #434343;
+    height: 25vh;
+  }
+
+  .profile {
+    height: 150px;
+    transform: translate(0, -75px);
+  }
+
+  .name {
+    transform: translate(0, -75px);
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .description {
+    transform: translate(0, -75px);
+    font-weight: 200;
+    font-size: 0.8em;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .web {
+    display: block;
+  }
 }
